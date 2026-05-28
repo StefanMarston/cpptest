@@ -8,7 +8,7 @@ int main(){
   std::string user = "123";
   std::string pass = "123!";
   
-  while (isLoggedIn == false) {
+  while (!isLoggedIn) {
     std::cout << "log in\n";
     std::cin >> username;
     if (username == user) {
