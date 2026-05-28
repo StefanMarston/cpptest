@@ -1,8 +1,9 @@
 #include <iostream>
 
-int(main){
+int main(){
   bool isLoggedIn = true;
-  if isLoggedIn == true {
-    std::cout << "Hi";
+  
+  while isLoggedIn == false {
+    std::cout << "log in";
     }
 }
